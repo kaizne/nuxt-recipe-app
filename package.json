@@ -10,7 +10,13 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/image": "^1.8.0",
     "nuxt": "^3.13.0",
+    "ufo": "^1.5.4",
+    "valibot": "^0.41.0",
     "vue": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/ui": "^2.18.4"
   }
 }
