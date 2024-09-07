@@ -4,7 +4,6 @@
     <div class="flex flex-row gap-1 mt-2">
       <UBadge v-for="label in recipe.dishTypes" :label="label" />
     </div>
-
     <section class="mt-4 flex flex-col md:flex-row-reverse gap-4 w-full">
       <NuxtImg
         :src="recipe.image"
